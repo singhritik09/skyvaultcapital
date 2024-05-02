@@ -8,7 +8,7 @@ const UserDashBoard = () => {
     const [user, setUser] = useState(null);
     const [loading, setLoading] = useState(true); // Add loading state
     const location = useLocation();
-
+    
     useEffect(() => {
         fetchDetails();
     }, []);
